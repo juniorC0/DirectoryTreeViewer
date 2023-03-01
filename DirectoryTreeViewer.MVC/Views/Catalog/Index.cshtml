@@ -1,0 +1,21 @@
+﻿@model Catalog
+
+<header>
+    <a href="@Url.Action("Index", "Catalog", new { id = 1 })">Back to root catalog</a>
+</header>
+
+<h1>"Folder" - @Model.Name</h1>
+
+@if (Model.ChildCatalogs != null && Model.ChildCatalogs.Any())
+{
+    <ul>
+        @foreach (var child in Model.ChildCatalogs)
+        {
+            <li><a href="@Url.Action("Index", new { id = child.Id })">@child.Name</a></li>
+        }
+    </ul>
+}
+else
+{
+    <p>No child catalogs found.</p>
+}

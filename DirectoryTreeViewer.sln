@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTreeViewer.MVC", "DirectoryTreeViewer.MVC\DirectoryTreeViewer.MVC.csproj", "{A69C4298-E55B-454E-AF18-096A60BB2618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69C4298-E55B-454E-AF18-096A60BB2618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69C4298-E55B-454E-AF18-096A60BB2618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69C4298-E55B-454E-AF18-096A60BB2618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69C4298-E55B-454E-AF18-096A60BB2618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7558B22-13FB-4582-A70E-6F0EC8881CAE}
+	EndGlobalSection
+EndGlobal
